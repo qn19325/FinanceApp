@@ -1,16 +1,10 @@
-img {
-	margin-bottom: 1.5rem;
-}
-
-img:hover {
-	filter: drop-shadow(0 0 2em #673ab8aa);
-}
 
 .home section {
+	width: 70vw;
 	margin-top: 5rem;
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	column-gap: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
 }
 
 .resource {
@@ -25,7 +19,6 @@ img:hover {
 
 .resource:hover {
 	border: 1px solid #000;
-	box-shadow: 0 25px 50px -12px #673ab888;
 }
 
 @media (max-width: 639px) {
