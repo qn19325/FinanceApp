@@ -16,7 +16,7 @@ export function Home() {
 				<Resource
 					title="Gym"
 					description="Tracking Gym."
-					href=""
+					href="/Gym"
 				/>
 			</section>
 			<footer></footer>
