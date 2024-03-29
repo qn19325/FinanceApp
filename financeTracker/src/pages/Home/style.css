@@ -1,40 +1,55 @@
+.home  {
+	 width: 192rem;
+	 height: 100vh;
+	 display: flex;
+	 flex-direction: column;
+	 align-items: center;
+	 justify-content: space-between;
+}
+
+.home header, .home footer {
+	width: 100%;
+	height: 10rem;
+	text-align: center;
+	font-size: 2rem;
+}
+
+.home h1 {
+	font-size: 4rem;
+}
+
+.home h2 {
+	font-size: 3rem;
+	margin: 0;
+}
+
+.home p {
+	font-size: 2rem;
+	margin: 0;
+}
 
 .home section {
-	width: 70vw;
-	margin-top: 5rem;
+	width: 150rem;
+	height: 80rem;
 	display: flex;
 	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
 	gap: 2rem;
 }
 
-.resource {
-	padding: 0.75rem 1.5rem;
-	border-radius: 0.5rem;
-	text-align: left;
+.home a {
+	width: 50rem;
+	background-color: #c7c7c7;
+	border-radius: 1rem;
+	display: flex;
+	flex-direction: column;
 	text-decoration: none;
-	color: #222;
-	background-color: #f1f1f1;
-	border: 1px solid transparent;
-}
+	color: black;
+	padding: 1rem 0 1rem 2rem;
+	border: solid white;
 
-.resource:hover {
-	border: 1px solid #000;
-}
-
-@media (max-width: 639px) {
-	.home section {
-		margin-top: 5rem;
-		grid-template-columns: 1fr;
-		row-gap: 1rem;
-	}
-}
-
-@media (prefers-color-scheme: dark) {
-	.resource {
-		color: #ccc;
-		background-color: #161616;
-	}
-	.resource:hover {
-		border: 1px solid #bbb;
+	&:hover {
+		border: solid black;
 	}
 }
